@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Tags -->
+  <title id="meta-title">Quentin Dugy | Développeur Intégrateur de Solutions Intranet/Internet</title>
+  <meta name="description" id="meta-desc" content="Découvrez le portfolio de Quentin Dugy, développeur intégrateur spécialisé en solutions intranet/internet, applications temps réel, et développement système.">
+  <meta name="author" content="Quentin Dugy">
+  <meta name="keywords" content="Quentin Dugy, développeur, intégrateur, portfolio, java, python, javascript, react, vue, node, express, minecraft, iracing, load-balancer, réseau">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="font-sans">
+
+  <!-- Background Glows -->
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+  <div class="glow-orb glow-3"></div>
+
+  <!-- Header & Navigation -->
+  <header class="header blur-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">&lt;</span>QD<span class="logo-accent"> /&gt;</span>
+      </a>
+      
+      <nav class="nav" id="main-nav">
+        <a href="#about" data-i18n="nav-about">Parcours</a>
+        <a href="#projects" data-i18n="nav-projects">Projets</a>
+        <a href="#skills" data-i18n="nav-skills">Compétences</a>
+        <a href="#contact" class="nav-cta" data-i18n="nav-contact">Contact</a>
+      </nav>
+
+      <div class="header-controls">
+        <button id="theme-toggle-btn" class="btn-lang" aria-label="Changer de thème">
+          <i data-lucide="moon" id="theme-icon" class="icon-sm"></i>
+        </button>
+        <button id="lang-toggle-btn" class="btn-lang" aria-label="Changer de langue">
+          <span class="lang-text">EN</span>
+          <i data-lucide="languages" class="icon-sm"></i>
+        </button>
+        <button id="mobile-nav-toggle" class="btn-mobile-nav" aria-label="Menu principal">
+          <i data-lucide="menu" id="menu-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Hero -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-new" data-i18n="hero-badge">
+            <span class="badge-dot"></span> Disponible pour de nouveaux projets
+          </div>
+          <h1 class="hero-title">
+            Quentin Dugy
+          </h1>
+          <h2 class="hero-subtitle" data-i18n="hero-subtitle">
+            Développeur intégrateur de solutions intranet/internet &amp; passionné système
+          </h2>
+          <p class="hero-description" data-i18n="hero-desc">
+            Concepteur de solutions web modernes, d'applications temps réel et d'outils systèmes performants. Mon parcours allie intégration web professionnelle et développement autonome d'outils avancés en Java, Python et JavaScript.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary" data-i18n="hero-cta-projects">
+              <i data-lucide="folder-git-2" class="icon-md"></i> Voir mes projets
+            </a>
+            <a href="#contact" class="btn-secondary" data-i18n="hero-cta-contact">
+              <i data-lucide="send" class="icon-md"></i> Me contacter
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="avatar-card glass-panel animate-float">
+            <div class="avatar-container">
+              <img src="assets/dev_avatar.png" alt="Quentin Dugy Avatar" class="avatar-image">
+            </div>
+            <div class="avatar-details text-center">
+              <h3>Quentin Dugy</h3>
+              <p class="text-muted" data-i18n="avatar-title">Intranet &amp; Systems Developer</p>
+              <div class="social-icons justify-center">
+                <a href="mailto:dugy.quentin@gmail.com" id="hero-email-link" aria-label="Email"><i data-lucide="mail"></i></a>
+                <a href="https://github.com/DugyQuentin" id="hero-github-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" style="display: block;"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <a href="#about" aria-label="Défiler vers la section à propos">
+          <i data-lucide="chevrons-down" class="animate-bounce"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section À Propos & Timeline -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title" data-i18n="about-title">Mon Parcours</h2>
+          <p class="section-subtitle" data-i18n="about-subtitle">D'une formation rigoureuse d'intégrateur à la réalisation de projets systèmes de pointe</p>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-bio glass-panel">
+            <h3 data-i18n="bio-title">Qui suis-je ?</h3>
+            <p data-i18n="bio-p1">
+              Originaire de France, j'ai suivi une formation intensive entre <strong>2023 et 2024</strong> pour obtenir le titre professionnel de <strong>Développeur Intégrateur de solutions intranet/internet</strong> (Diplôme de Niveau 5, équivalent Bac+2). Cette étape a consolidé mes bases théoriques et pratiques en développement web.
+            </p>
+            <p data-i18n="bio-p2">
+              Au-delà du web classique, je suis passionné par l'architecture logicielle et les systèmes. J'aime concevoir des architectures robustes et complexes, qu'il s'agisse de mods en Java hautement optimisés pour Minecraft (avec réflexion et modifications du bytecode), de répartiteurs de charge réseau en Python, ou d'applications télémétriques temps réel en TypeScript.
+            </p>
+            <div class="bio-highlights">
+              <div class="highlight-item">
+                <i data-lucide="graduation-cap" class="highlight-icon"></i>
+                <div>
+                  <h4 data-i18n="high-diploma">Titre Professionnel Niv. 5</h4>
+                  <p data-i18n="high-diploma-sub">Intégration Intranet/Internet (2023-2024)</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="cpu" class="highlight-icon"></i>
+                <div>
+                  <h4 data-i18n="high-sys">Développement Système &amp; R&amp;D</h4>
+                  <p data-i18n="high-sys-sub">Java (Forge/Mixins), Python Socket, C++ Telemetry</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2023 - 2024</div>
+              <div class="timeline-content glass-panel">
+                <h3 data-i18n="time1-title">Formation &amp; Diplôme Professionnel</h3>
+                <h4 class="timeline-location" data-i18n="time1-sub">Certification Niveau 5 (Bac+2)</h4>
+                <p data-i18n="time1-desc">Apprentissage structuré de l'intégration web, gestion de bases de données relationnelles, conception de solutions intranet/internet et gestion de projets agiles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title" data-i18n="projects-title">Mes Projets</h2>
+          <p class="section-subtitle" data-i18n="projects-subtitle">Une sélection de travaux alliant logique pure, performance et interfaces interactives</p>
+          
+          <div class="project-filters">
+            <button class="filter-btn active" data-filter="all" data-i18n="filter-all">Tous</button>
+            <button class="filter-btn" data-filter="system" data-i18n="filter-sys">Système &amp; R&amp;D</button>
+            <button class="filter-btn" data-filter="web" data-i18n="filter-web">Web &amp; Temps Réel</button>
+            <button class="filter-btn" data-filter="other" data-i18n="filter-other">Utilitaires</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+          
+          <!-- Projet 1: CompanionMod -->
+          <div class="project-card glass-panel" data-category="system">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="cpu" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-sys">Java / Forge</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">CompanionMod</h3>
+              <p class="project-card-desc" data-i18n="proj1-desc">
+                Intelligence artificielle compagnon pour Minecraft 1.7.10 (GregTech New Horizons). Inclut détection intelligente de minerais, pilotage automatique de véhicules, maintenance automatisée de machines multiblocs et combat coopératif avancé.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> LoS Caching CPU (5-ticks)</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Algorithme Pathfinding de flanc</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Analyse par Réflexion Java</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-wip"><span class="status-dot orange"></span> En cours</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de CompanionMod"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+          <!-- Projet 2: iRacing Dashboard -->
+          <div class="project-card glass-panel" data-category="web">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="gauge" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-web">React / TS / Electron</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">iRacing Dashboard</h3>
+              <p class="project-card-desc" data-i18n="proj2-desc">
+                Console de bord et widget de session pour simulateur automobile. Analyse la télémétrie en temps réel (météo, SOF, drapeaux, radar de proximité). Intègre un pont réseau Node pour extraire et formater les flux de l'iRacing SDK.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> WebSocket &amp; Télémétrie brute</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Filtrage intelligent Pace Car</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Visualisations avec Recharts</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-active"><span class="status-dot green"></span> Actif</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de iRacing Dashboard"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+          <!-- Projet 3: Network Aggregator -->
+          <div class="project-card glass-panel" data-category="system">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="network" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-sys">Python / Win32</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">Network Aggregator</h3>
+              <p class="project-card-desc" data-i18n="proj3-desc">
+                Répartiteur de charge réseau local. Agrège la bande passante de plusieurs interfaces physiques de manière logicielle (ex: Ethernet + Wi-Fi) avec mesure dynamique des latences et gestion fine via interface graphique Tkinter.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> Proxy Socket multi-threadé</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Routage dynamique intelligent</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Intégration API Windows</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-active"><span class="status-dot green"></span> Actif</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de Network Aggregator"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+          <!-- Projet 4: Quiz 1v100 -->
+          <div class="project-card glass-panel" data-category="web">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="gamepad-2" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-web">Vue.js / Express</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">Quiz 1v100</h3>
+              <p class="project-card-desc" data-i18n="proj4-desc">
+                Plateforme de quiz en temps réel inspirée de l'émission télévisée. Supporte jusqu'à 100 joueurs simultanés via Socket.io. Les questions et réponses sont synchronisées à la milliseconde près avec base de données SQLite.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> Temps réel Socket.io &amp; Express</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Rendu réactif ultra-rapide</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Base de données SQLite3</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-active"><span class="status-dot green"></span> Actif</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de Quiz 1v100"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+          <!-- Projet 5: Live Delay Proxy -->
+          <div class="project-card glass-panel" data-category="other">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="video" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-other">Node.js / FFmpeg</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">Live Delay Proxy</h3>
+              <p class="project-card-desc" data-i18n="proj5-desc">
+                Proxy RTMP local conçu pour les diffuseurs en direct. Permet d'injecter un décalage vidéo temporel ajustable en temps réel via une interface WebSocket sans interrompre le flux d'encodage principal.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> Traitement de flux RTMP</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Décalage tampon dynamique</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Pipe FFmpeg bas-niveau</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-active"><span class="status-dot green"></span> Actif</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de Live Delay Proxy"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+          <!-- Projet 6: Twitch Pokecatch Bot -->
+          <div class="project-card glass-panel" data-category="other">
+            <div class="project-header">
+              <div class="project-icon-wrapper">
+                <i data-lucide="bot" class="project-icon"></i>
+              </div>
+              <span class="project-tag tag-other">Electron / IRC</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-card-title">Pokecatch Auto</h3>
+              <p class="project-card-desc" data-i18n="proj6-desc">
+                Application de bureau avec robot IRC connecté au tchat Twitch. Détecte automatiquement l'apparition de Pokémon interactifs et automatise les actions d'attrape à l'aide d'une interface graphique interactive.
+              </p>
+              <div class="project-features-list">
+                <span><i data-lucide="check" class="icon-xs"></i> Client IRC via tmi.js</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Interface de bureau Electron</span>
+                <span><i data-lucide="check" class="icon-xs"></i> Logs et statistiques en temps réel</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status" data-i18n="status-active"><span class="status-dot green"></span> Actif</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Voir le code de Pokecatch Auto"><i data-lucide="github"></i> Code</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences (Skills) -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title" data-i18n="skills-title">Mes Compétences</h2>
+          <p class="section-subtitle" data-i18n="skills-subtitle">Les outils et langages que j'utilise pour donner vie à mes idées</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Web Development -->
+          <div class="skills-category glass-panel">
+            <h3 class="category-title"><i data-lucide="code-2" class="icon-md font-cyan"></i> Web &amp; Intégration</h3>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5 / CSS3 / Javascript</span>
+              <span class="skill-tag">React &amp; Vue.js</span>
+              <span class="skill-tag">Tailwind CSS / Responsive Design</span>
+              <span class="skill-tag">Node.js / Express</span>
+            </div>
+          </div>
+
+          <!-- Systems & Languages -->
+          <div class="skills-category glass-panel">
+            <h3 class="category-title"><i data-lucide="binary" class="icon-md font-indigo"></i> Systèmes &amp; Langages</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Java (Forge, Mixins, Reflection)</span>
+              <span class="skill-tag">Python (Sockets, Windows API)</span>
+              <span class="skill-tag">SQLite / MongoDB</span>
+              <span class="skill-tag">Electron (Desktop integration)</span>
+            </div>
+          </div>
+
+          <!-- Devops & Architectures -->
+          <div class="skills-category glass-panel">
+            <h3 class="category-title"><i data-lucide="layers" class="icon-md font-purple"></i> Outils &amp; Architectures</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Git / GitHub (CI/CD workflows)</span>
+              <span class="skill-tag">WebSockets / Socket.io</span>
+              <span class="skill-tag">FFmpeg &amp; RTMP Live Streaming</span>
+              <span class="skill-tag">Architecture Solutions Intranet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title" data-i18n="contact-title">Me Contacter</h2>
+          <p class="section-subtitle" data-i18n="contact-subtitle">Un projet d'intranet, de développement système ou simplement discuter opportunités ?</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass-panel">
+            <h3 data-i18n="contact-info-title">Mes coordonnées</h3>
+            <p data-i18n="contact-info-desc">N'hésitez pas à me joindre directement par e-mail ou à consulter mon profil de code sur GitHub.</p>
+            
+            <div class="info-list">
+              <div class="info-item">
+                <i data-lucide="mail" class="info-icon font-cyan"></i>
+                <div>
+                  <h4 data-i18n="contact-email">Email</h4>
+                  <a href="mailto:dugy.quentin@gmail.com" id="contact-email-val" class="info-link">dugy.quentin@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <div class="info-icon font-indigo">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block;"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </div>
+                <div>
+                  <h4 data-i18n="contact-github">GitHub</h4>
+                  <a href="https://github.com/DugyQuentin" id="contact-github-val" target="_blank" rel="noopener noreferrer" class="info-link">DugyQuentin</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-illustration-container">
+              <div class="tech-graphic">
+                <div class="circle outer"></div>
+                <div class="circle middle"></div>
+                <div class="circle inner"></div>
+                <i data-lucide="globe" class="center-icon"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel glass-panel">
+            <form id="contact-form" action="#" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="form-name" data-i18n="form-label-name">Votre Nom</label>
+                <input type="text" id="form-name" required placeholder="Quentin">
+              </div>
+              
+              <div class="form-group">
+                <label for="form-email" data-i18n="form-label-email">Votre Email</label>
+                <input type="email" id="form-email" required placeholder="nom@exemple.com">
+              </div>
+              
+              <div class="form-group">
+                <label for="form-msg" data-i18n="form-label-msg">Votre Message</label>
+                <textarea id="form-msg" rows="5" required placeholder="Votre message..."></textarea>
+              </div>
+              
+              <button type="submit" class="btn-primary btn-submit w-full" id="form-submit-btn">
+                <span data-i18n="form-btn">Envoyer le message</span>
+                <i data-lucide="send" class="icon-sm"></i>
+              </button>
+            </form>
+            <div id="form-success-msg" class="success-message text-center" hidden>
+              <i data-lucide="check-circle" class="icon-lg font-green mb-2"></i>
+              <h4 data-i18n="form-success-title">Message Envoyé !</h4>
+              <p data-i18n="form-success-desc">Merci pour votre message. Je vous répondrai dans les plus brefs délais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container text-center">
+      <p class="copyright">
+        &copy; 2026 Quentin Dugy. <span data-i18n="footer-rights">Tous droits réservés.</span>
+      </p>
+      <p class="built-with">
+        <span data-i18n="footer-built">Fait à la main en HTML5 / CSS3 / Javascript.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- App Logic script -->
+  <script src="app.js"></script>
+</body>
+</html>
