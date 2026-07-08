@@ -53,6 +53,8 @@ const i18n = {
     
     "status-wip": "En cours",
     "status-active": "Actif",
+    "status-paused": "En pause",
+    "status-completed": "Terminé",
     
     "skills-title": "Mes Compétences",
     "skills-subtitle": "Les outils et langages que j'utilise pour donner vie à mes idées",
@@ -126,6 +128,8 @@ const i18n = {
     
     "status-wip": "WIP",
     "status-active": "Active",
+    "status-paused": "Paused",
+    "status-completed": "Completed",
     
     // Skills
     "skills-title": "My Skills",

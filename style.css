@@ -1013,6 +1013,16 @@ input, textarea, button {
   box-shadow: 0 0 8px #f59e0b;
 }
 
+.status-dot.yellow {
+  background-color: #eab308;
+  box-shadow: 0 0 8px #eab308;
+}
+
+.status-dot.blue {
+  background-color: #3b82f6;
+  box-shadow: 0 0 8px #3b82f6;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
