@@ -14,7 +14,7 @@ const i18n = {
     
     // Hero
     "hero-badge": "Disponible pour de nouveaux projets",
-    "hero-subtitle": "Développeur intégrateur de solutions intranet/internet & passionné système",
+    "hero-subtitle": "Développeur FullStack & passionné système et réseau",
     "hero-desc": "Concepteur de solutions web modernes, d'applications temps réel et d'outils systèmes performants. Mon parcours allie intégration web professionnelle et développement autonome d'outils.",
     "hero-cta-projects": "Voir mes projets",
     "hero-cta-contact": "Me contacter",
@@ -87,7 +87,7 @@ const i18n = {
     
     // Hero
     "hero-badge": "Available for new opportunities",
-    "hero-subtitle": "Intranet/internet solutions integrator & systems enthusiast",
+    "hero-subtitle": "FullStack Developer & systems and network enthusiast",
     "hero-desc": "Designer of modern web solutions, real-time applications, and high-performance systems utilities. My journey blends professional web integration with self-taught engineering of tools.",
     "hero-cta-projects": "View My Projects",
     "hero-cta-contact": "Contact Me",
